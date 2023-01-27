@@ -15,11 +15,23 @@ body > *{
     display: flex;
     justify-content: center;
     align-items: space-between;
-    
+}
+
+#grid-spec {
+    background-color: white;
+    font-size: 20px;
+    color: red;
+    border-radius: 10px;
+    border-style:none;
+    padding: 10px 25px 10px;
+    margin: 10px 0px 20px;
+}
+
+#grid-spec:hover{
+    background-color: lightgray;
 }
 
 #sketcharea {
-    display: flex;
     flex: 0 1 auto;
     max-width: 1000px;
     width: 100%;
@@ -29,4 +41,28 @@ body > *{
     flex-direction: row;
     align-items: stretch;
     align-self: center;
+}
+
+.reset {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: white;
+}
+
+.reset:hover {
+    background-color: lightgray;
+}
+
+#footer {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 10px;
+}
+
+#eas-label {
+    color: silver;
+    font-family:cursive;
+    font-size: 50px;
 }
