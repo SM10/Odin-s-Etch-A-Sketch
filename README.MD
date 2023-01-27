@@ -1,0 +1,1 @@
+Project: Etch-A-Sketch from The Odin Project's Foundations Course

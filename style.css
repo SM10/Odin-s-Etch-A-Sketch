@@ -1,0 +1,12 @@
+html, body{
+    height: 100%
+}
+
+#sketcharea {
+    background-color: lightgray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
