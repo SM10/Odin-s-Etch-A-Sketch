@@ -6,6 +6,7 @@ createGrid()
 
 function createGrid(){
     let sketcharea = document.querySelector('#sketcharea')
+    sketcharea.style.alignItems="stretch"
     for (let row = 0; row <rowCount; row++)
     {
         let newRow = document.createElement('div')
