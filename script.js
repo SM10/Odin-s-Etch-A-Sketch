@@ -23,7 +23,7 @@ function createGrid(){
             let newCol = document.createElement("div")
             newCol.style.flex = "auto"
             newCol.style.backgroundColor = "lightgray"
-            newCol.className = "row"
+            newCol.className = "cell"
             newCol.id = "cell-" + row + "-" + column 
             newCol.addEventListener('mousedown', function(event){
                 mousedown = true
@@ -86,5 +86,12 @@ function changeGridSize(){
         colCount = squareCount
         
         resizeGrid()
+    }
+}
+
+function resetSketchArea(){
+    let cells = document.querySelectorAll(".cell")
+    for (let cell of cells){
+        cell.style.backgroundColor = "lightgray"
     }
 }
